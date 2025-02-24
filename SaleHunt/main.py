@@ -13,10 +13,10 @@ dp = Dispatcher(bot)
 
 register_handlers_start(dp)
 register_handlers_categories(dp)
+register_handlers_discounts(dp)
 register_handlers_help(dp)
 register_handlers_feedback(dp)
 register_handlers_language(dp)
-register_handlers_discounts(dp)
 
 if __name__ == "__main__":
     executor.start_polling(dp, skip_updates=True)
